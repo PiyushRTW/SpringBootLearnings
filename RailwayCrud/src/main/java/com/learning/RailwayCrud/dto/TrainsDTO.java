@@ -1,0 +1,22 @@
+package com.learning.RailwayCrud.dto;
+
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+
+@Getter
+@Setter
+@NoArgsConstructor
+@AllArgsConstructor
+
+public class TrainsDTO {
+    private long trainId;
+    private long train_No;
+    private String train_Name;
+    private String train_Type;
+    private boolean ac;
+
+    public TrainsDTO(long trainId, String trainName) {
+    }
+}

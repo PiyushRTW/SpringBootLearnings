@@ -1,0 +1,64 @@
+package com.learning.RailwayCrud.entity;
+
+import jakarta.persistence.*;
+
+@Entity
+@Table(name = "user_details")
+public class Users {
+
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private int userID;
+
+    @Column(nullable = false)
+    private long mobile_No;
+
+    @Column(nullable = false)
+    private String user_name;
+
+    @Column(nullable = false)
+    private String email_address;
+
+    @Column(nullable = false)
+    private String password;
+
+    public int getUserID() {
+        return userID;
+    }
+
+    public void setUserID(int userID) {
+        this.userID = userID;
+    }
+
+    public long getMobile_No() {
+        return mobile_No;
+    }
+
+    public void setMobile_No(long mobile_No) {
+        this.mobile_No = mobile_No;
+    }
+
+    public String getUser_name() {
+        return user_name;
+    }
+
+    public void setUser_name(String user_name) {
+        this.user_name = user_name;
+    }
+
+    public String getEmail_address() {
+        return email_address;
+    }
+
+    public void setEmail_address(String email_address) {
+        this.email_address = email_address;
+    }
+
+    public String getPassword() {
+        return password;
+    }
+
+    public void setPassword(String password) {
+        this.password = password;
+    }
+}
