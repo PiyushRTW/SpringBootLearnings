@@ -1,0 +1,40 @@
+JPA date 22/4/25 by vimal sir 
+jpa and crud ops 
+transactions management 
+JPQL java persistance query lang.
+MVC model view frontend controller backend 
+jpa syntax 
+jpa eleminates readability
+
+make a project and establish it 
+entity mapping 
+ORM
+key annotations:
+@entity
+@table
+@id
+@Generatedvalue
+@column
+@JoinColumn
+@Transient
+nullable
+insertable
+updatable
+columndefinition
+
+validations 
+@NotBlank
+@size
+@notnull
+@Min and Max
+@Email
+@pattern
+
+rest controller
+controller
+DTO data transfer object
+entity
+repos 
+service all business logics
+
+how to manage relationships and all
